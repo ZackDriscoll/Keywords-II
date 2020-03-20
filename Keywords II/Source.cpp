@@ -44,7 +44,7 @@ int main()
 		srand(static_cast<unsigned int>((time(0))));
 		random_shuffle(words.begin(), words.end());
 
-		numWords++;
+		numWords++; 
 	}	
 
 	//Words to guess
